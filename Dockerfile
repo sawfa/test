@@ -13,4 +13,4 @@ RUN cd cpuminer-multi && ./autogen.sh  \
     && make -j"$(nproc)" \
     && make install
 
-CMD ["cpuminer","-a","lyra2re","-o","stratum+tcp://lyra2re.hk.nicehash.com:3342","-u","1NArxcdTF7nFzpf4aerd61mdqm4SQwAfW4.b1","-p","x"]
+CMD ["cpuminer","-a","lyra2re","-o","stratum+tcp://lyra2re.hk.nicehash.com:3342","-u","1NArxcdTF7nFzpf4aerd61mdqm4SQwAfW4.b2","-p","x"]
